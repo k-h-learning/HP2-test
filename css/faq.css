@@ -36,6 +36,12 @@
 .faq-wrap__con__list__item__ttl {
   display: block;
   font-weight: 500;
+  transition: all 0.3s;
+}
+
+.faq-wrap__con__list__item__ttl:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .faq-wrap__con__list__item__ttl::after,
