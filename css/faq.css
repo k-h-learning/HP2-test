@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+.__inner {
+  width: 70%;
+}
+
+.faq-wrap__con__list {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.faq-wrap__con__list__item {
+  position: relative;
+  margin: 1.5%;
+}
+
+.faq-wrap__con__list__item__tog {
+  display: none;
+}
+
+.faq-wrap__con__list__item__tog:checked+.faq-wrap__con__list__item__ttl+.faq-wrap__con__list__item__con {
+  max-height: 500px;
+  transition: all 1.5s;
+}
+
+.faq-wrap__con__list__item__tog:checked+.faq-wrap__con__list__item__ttl::before {
+  transform: rotate(90deg);
+}
+
+.faq-wrap__con__list__item__ttl,
+.faq-wrap__con__list__item__con {
+  transform: translate(0);
+  transition: all 0.3s;
+}
+
+.faq-wrap__con__list__item__ttl {
+  display: block;
+  font-weight: 500;
+}
+
+.faq-wrap__con__list__item__ttl::after,
+.faq-wrap__con__list__item__ttl::before {
+  content: "";
+  position: absolute;
+  right: 0.35rem;
+  top: 0.35rem;
+  width: 0.25vw;
+  height: 2vw;
+  background-color: #4B4569;
+  transition: all 0.3s;
+}
+
+.faq-wrap__con__list__item__ttl::after {
+  transform: rotate(90deg);
+}
+
+.faq-wrap__con__list__item__con {
+  max-height: 0;
+  overflow: hidden;
+  margin-top: 2.5%;
+}
+
+.faq-wrap__con__list__item__ttl span {
+  display: inline-block;
+  width: 2.5vw;
+  height: 2.5vw;
+  font-size: 1.8vw;
+  color: #fff;
+  background-color: #4B4569;
+  border: solid 2px #4B4569;
+  border-radius: 50%;
+  padding: 0 0.4% 1% 0.4%;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 3%;
+}
+
+.faq-wrap__con__list__item__con span {
+  display: inline-block;
+  width: 2.5vw;
+  height: 2.5vw;
+  font-size: 1.8vw;
+  color: #4B4569;
+  background-color: #fff;
+  border: solid 2px #4B4569;
+  border-radius: 50%;
+  padding: 0 0.4% 1% 0.4%;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 3%;
+}
+
+@media screen and (max-width: 768px) {
+  .__inner {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .faq-wrap__con__list__item__ttl::before,
+  .faq-wrap__con__list__item__ttl::after {
+    display: none;
+  }
+
+  .faq-wrap__con__list__item__ttl span {
+    width: 3.5vw;
+    height: 3.5vw;
+    font-size: 2.5vw;
+  }
+    
+  .faq-wrap__con__list__item__con span {
+    width: 3.5vw;
+    height: 3.5vw;
+    font-size: 2.5vw;
+  }
+}

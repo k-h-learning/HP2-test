@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>WithCode -HP②test-</title>
+    <meta name="description"
+      content="【WithCode(ウィズコード)】Web制作会社が開発した実践的なカリキュラム。卒業後からWeb制作会社の案件を担当しながら稼ぐ環境を提供する唯一のプログラミングスクールです。">
+    <meta name="keywords" content="IT,プログラミング,フリーランス,副業">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url" content="https://withcode-plus.tech">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="WithCode -HP②test-">
+    <meta property="og:description"
+      content="【WithCode(ウィズコード)】Web制作会社が開発した実践的なカリキュラム。卒業後からWeb制作会社の案件を担当しながら稼ぐ環境を提供する唯一のプログラミングスクールです。">
+    <meta property="og:site_name" content="WithCode">
+    <meta property="og:image" content="https://withcode-plus.tech/img/logo.png">
+    <link rel="icon" href="../favicon.ico">
+    <link rel="apple-touch-icon" sizes="180*180" href="../img/logo.png">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/common1.css">
+    <link rel="stylesheet" type="text/css" href="../css/common2.css">
+    <link rel="stylesheet" type="text/css" href="../css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700;900&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Zen+Kaku+Gothic+New&family=Zen+Maru+Gothic&display=swap"
+      rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="header" id="header">
+      <div class="header-wrap">
+        <a href="../index.html" class="header-wrap__logo">
+          <img src="../img/logo.png" alt="ロゴ画像">
+        </a>
+        <nav class="header-wrap__nav">
+          <ul class="header-wrap__nav__list">
+            <li class="header-wrap__nav__list__item">
+              <a href="../html/service.html">Service</a>
+            </li>
+            <li class="header-wrap__nav__list__item">
+              <a href="../html/about.html">About</a>
+            </li>
+            <li class="header-wrap__nav__list__item">
+              <a href="../html/news.html">News</a>
+            </li>
+            <li class="header-wrap__nav__list__item">
+              <a href="../html/faq.html">Q&A</a>
+            </li>
+            <li class="header-wrap__nav__list__item __contact">
+              <a href="../html/contact.html">
+                <i class="fa-regular fa-envelope" style="color: #4b4569;"></i>
+                お問い合わせ
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="drawer"></div>
+    </header>
+
+    <main>
+      <section class="top" id="top">
+        <div class="top-wrap">
+          <div class="top-wrap__bc">
+            <ul class="top-wrap__bc__list">
+              <li class="top-wrap__bc__list__item">
+                <a href="../index.html">
+                  <i class="fa-solid fa-house"></i>
+                </a>
+              </li>
+              <li class="top-wrap__bc__list__item">
+                <a href="../html/contact.html">
+                  <span class="bc">Contact</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="top-wrap__txt">
+            <h2 class="top-ttl">
+              <small class="s-ttl">Contact</small><br>お問い合わせ
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="contact-wrap __inner">
+          <div class="contact-wrap__intro">
+            <p class="intro">弊社にご興味/関心を頂き、誠に有難うございます。<br>
+            制作/運用料金などの見積もり、サービスに関するご相談など、 気軽にお問い合わせ下さい。<br>
+            弊社の担当者が内容の確認後、ご連絡させて頂きます。<br>
+            <span>※（必須項目）</span></p>
+          </div>
+          <form action="#" class="contact-wrap__form" id="form">
+            <div class="contact-wrap__form__box">
+              <label for="name" class="contact-wrap__form__box__ttl">お問い合わせ項目<span>*</span></label>
+              <select name="お問い合わせ項目" required="required" class="contact-wrap__form__box__select">
+                <optgroup value>
+                  <option value="選択してください" hidden class="contact-wrap__form__box__select__with">選択してください</option>
+                  <option value="選択してください" class="contact-wrap__form__box__select__with">BtoBマーケティング</option>
+                  <option value="選択してください" class="contact-wrap__form__box__select__with">法人営業</option>
+                  <option value="選択してください" class="contact-wrap__form__box__select__with">その他</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="contact-wrap__form__box">
+              <label for="name" class="contact-wrap__form__box__ttl">お名前（漢字）<span>*</span></label>
+              <input type="text" class="contact-wrap__form__box__input" name="お名前（漢字）" required="required" placeholder="お名前をご入力下さい">
+            </div>
+            <div class="contact-wrap__form__box">
+              <label for="email" class="contact-wrap__form__box__ttl">メールアドレス<span>*</span></label>
+              <input type="email" class="contact-wrap__form__box__input" name="メールアドレス" required="required" placeholder="例）example@example.com">
+            </div>
+            <div class="contact-wrap__form__box _area">
+              <label for="message" class="contact-wrap__form__box__ttl">お問い合わせ内容<span>*</span></label>
+              <textarea name="お問い合わせ内容" class="contact-wrap__form__box__area" id="message" required="required" placeholder="お問い合わせ内容をご入力下さい"></textarea>
+            </div>
+            <button type="submit" class="btn contact-btn">送信する</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="footer">
+      <div class="footer-wrap">
+        <div class="footer-wrap__logo">
+          <a href="../index.html">
+            <img src="../img/logo-f.png" alt="ロゴ画像">
+          </a>
+        </div>
+        <ul class="footer-wrap__list">
+          <li class="footer-wrap__list__item">
+            <a href="../index.html">TOP</a>
+          </li>
+          <li class="footer-wrap__list__item">
+            <a href="../html/service.html">SERVICE</a>
+          </li>
+          <li class="footer-wrap__list__item">
+            <a href="../html/about.html">ABOUT</a>
+          </li>
+          <li class="footer-wrap__list__item">
+            <a href="../html/news.html">NEWS</a>
+          </li>
+          <li class="footer-wrap__list__item">
+            <a href="../html/faq.html">Q&A</a>
+          </li>
+        </ul>
+        <ul class="footer-wrap__sns">
+          <li class="footer-wrap__sns__item">
+            <a href="index.html">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li class="footer-wrap__sns__item">
+            <a href="index.html">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+        <div class="footer-wrap__btn btn">
+          <a href="../html/contact.html">
+            <p>まずは相談する
+              <i class="fa-solid fa-arrow-right"></i>
+            </p>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+  </body>
+
+
+</html>
