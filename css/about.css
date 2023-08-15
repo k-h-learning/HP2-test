@@ -110,9 +110,12 @@
     flex-direction: column;
   }
 
-  .greet-wrap__con {
-    flex-direction: column;
-    align-items: center;
+  .greet-wrap__con__left {
+    width: 35%;
+  }
+
+  .greet-wrap__con__right {
+    width: 60%;
   }
 
   .access-wrap__con {
@@ -129,6 +132,10 @@
 
   .access-wrap__con__left iframe {
     height: 100%;
+  }
+
+  .access-wrap__con__right {
+    width: 100%;
   }
 
 

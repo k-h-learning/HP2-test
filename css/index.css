@@ -494,7 +494,7 @@
 
   .news-wrap__con__block {
     width: 80%;
-    height: 40vw;
+    height: 42vw;
     margin: 4% auto;
   }
 
@@ -508,7 +508,12 @@
 
   .faq-wrap__con__list__item__ttl::before,
   .faq-wrap__con__list__item__ttl::after {
-    display: none;
+    width: 0.5vw;
+    height: 4vw;
+  }
+  
+  .faq-wrap__con__list__item__ttl {
+    padding-right: 8%;
   }
 
   .faq-wrap__con__list__item__ttl span {
@@ -521,5 +526,28 @@
     width: 3.5vw;
     height: 3.5vw;
     font-size: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .top-wrap__left__con__txt h1 {
+    font-size: 3rem;
+  }
+
+  .top-wrap__left__con__txt p {
+    width: 85%;
+    margin: 5% auto;
+  }
+
+  .service-wrap__con__block__top h3 {
+    font-size: 1rem;
+  }
+
+  .service-wrap__con__block__top i {
+    font-size: 1.2rem;
+  }
+
+  .btn-b a {
+    font-size: 4.5vw;
   }
 }

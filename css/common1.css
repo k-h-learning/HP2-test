@@ -441,8 +441,12 @@ hr {
     width: 80%;
   }
 
+  .footer-wrap {
+    width: 90%;
+  }
+
   .footer-wrap__list {
-    flex-direction: column;
+    width: 100%;
     align-items: center;
   }
 
@@ -450,19 +454,28 @@ hr {
     margin: 2% auto;
   }
 
-  .footer-wrap__list__item:last-child {
-    margin-bottom: 0;
-  }
-
   .footer-wrap__list__item a {
     font-size: 1.2rem;
   }
 
   .footer-wrap__sns__item {
-    margin: 5% 15%;
+    margin: 5% 10%;
   }
 
   .footer-wrap__sns__item a i {
     font-size: 1.5rem;
   }
+}
+
+@media screen and (max-width: 320px) {
+  .header-wrap__logo {
+    width: 48%;
+  }
+
+  .footer-wrap__list {
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto 4%;
+  }
+
 }

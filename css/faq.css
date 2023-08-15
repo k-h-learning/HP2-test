@@ -105,7 +105,12 @@
 @media screen and (max-width: 480px) {
   .faq-wrap__con__list__item__ttl::before,
   .faq-wrap__con__list__item__ttl::after {
-    display: none;
+    width: 0.5vw;
+    height: 4vw;
+  }
+
+  .faq-wrap__con__list__item__ttl {
+    padding-right: 8%;
   }
 
   .faq-wrap__con__list__item__ttl span {
